@@ -1,0 +1,154 @@
+body {
+
+    background-image: linear-gradient(to right, black , rgb(49, 44, 44));
+    margin: 0;
+    padding: 0;
+
+}
+
+#tab_up {
+
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 20px;
+
+}
+
+
+#tab_up a img {
+
+    height: 70px;
+    width: 70px;
+    /* padding-left: 20px; */
+    /* padding-top: 10px; */
+    background-color: white;
+    border-radius: 60%;
+    margin-left: 30px;
+    margin-top: 10px;
+    transition-duration: 1s;
+
+}
+
+#tab_up a img:hover {
+
+    transform: rotate(360deg);
+
+}
+
+#right_tabs {
+
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+
+}
+.tabs {
+
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition-duration: 1.5s;
+    margin: 0px 5px;
+    font-weight: bold;
+
+}
+
+.tabs:hover {
+
+    border-bottom: 1px solid white;
+
+}
+
+#content_tag {
+
+    height: 600px;
+    width: 800px;
+    /* background-color: red; */
+    margin: 30px 40px;
+    float: left;
+
+}
+
+#content_tag h1 {
+
+    color: white;
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#content_tag p {
+
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#email_para {
+
+    color: darkcyan;
+
+}
+
+form {
+
+    margin-top: 40px;
+
+}
+
+#content_tag .form_heading {
+
+    color: lightgray;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+
+}
+
+#content_tag .ipt {
+
+    background-color: rgba(27,27,27,.91);
+    width: 500px;
+    height: 40px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#content_tag #ipt_message {
+
+    background-color: rgba(27,27,27,.91);
+    width: 500px;
+    height: 100px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 0px 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+#content_tag button {
+
+    height: 50px;
+    width: 100px;
+    margin-top: 30px;
+    background-color: darkcyan;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+
+}
+
+#content_tag button:hover {
+
+    box-shadow: 1px 1px 1px 1px skyblue;
+
+}

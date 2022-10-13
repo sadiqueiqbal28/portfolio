@@ -1,0 +1,204 @@
+body {
+
+    background-image: linear-gradient(to right, black , rgb(49, 44, 44));
+    margin: 0;
+    padding: 0;
+
+}
+
+#tab_up {
+
+    height: 100px;
+    width: 100%;
+    /* position: fixed;
+    top: 0; */
+    /* background-color: red; */
+    margin-top: 20px;
+
+}
+
+
+#tab_up a img {
+
+    height: 70px;
+    width: 70px;
+    /* padding-left: 20px;
+    padding-top: 10px; */
+    background-color: white;
+    border-radius: 60%;
+    margin-left: 30px;
+    margin-top: 10px;
+    transition-duration: 1s;
+
+}
+
+#tab_up a img:hover {
+
+    transform: rotate(360deg);
+
+}
+
+#right_tabs {
+
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+
+}
+.tabs {
+
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition-duration: 0.5s;
+    margin: 0px 5px;
+    font-weight: bold;
+
+}
+
+.tabs:hover {
+
+    border-bottom: 1px solid white;
+
+}
+
+#skill_div {
+
+    /* background-color: brown; */
+    height: 900px;
+    width: 80%;
+    margin: 100px auto;
+    /* border: 1px solid white; */
+    padding: 20px;
+    /* background-image: linear-gradient(to right, rgb(53, 53, 203) , lightblue); */
+    /* opacity: 0.5; */
+
+}
+
+#skill_div h1 {
+
+    color: white;
+    font-weight:lighter;
+    font-size: 45px;
+    font-family: 'Brush Script MT', cursive;
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
+    border-top: 4px solid darkcyan;
+    border-right: 4px solid darkcyan;
+    border-radius: 15px;
+    padding: 15px;
+    width: 400px;
+    /* box-shadow: 1px 1px 0px 2px white; */
+
+}
+
+.card {
+
+    margin: 50px;
+    height: 300px;
+    width: 500px;
+    border: 2px solid white;
+    float: left;
+    font-weight: bold;
+    box-shadow: 4px 4px 4px 4px white;
+    background-image: linear-gradient(to right, white, darkcyan); 
+
+}
+
+.card img {
+
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+    /* position: absolute;
+    left: 300px; */
+}
+
+.card p {
+
+    color: rgb(53, 52, 52);
+    font-size: 20px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+
+}
+
+#js-logo {
+
+    width: 150px;
+
+}
+
+#skill_div1 {
+
+    /* background-color: brown; */
+    height: 500px;
+    width: 80%;
+    margin: 100px auto;
+    /* border: 1px solid white; */
+    padding: 20px;
+
+}
+
+#skill_div1 h1 {
+
+    color: white;
+    font-weight:lighter;
+    font-size: 45px;
+    font-family: 'Brush Script MT', cursive;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    /* padding: 10px; */
+    width: 250px;
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
+    border-top: 4px solid darkcyan;
+    border-right: 4px solid darkcyan;
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+#css-logo {
+
+    width: 80px;
+
+}
+
+#skill_div2 {
+
+    /* background-color: brown; */
+    height: 500px;
+    width: 80%;
+    margin: 100px auto;
+    /* border: 1px solid white; */
+    padding: 20px;
+
+}
+
+#skill_div2 h1 {
+
+    color: white;
+    font-weight:lighter;
+    font-size: 45px;
+    font-family: 'Brush Script MT', cursive;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    width: 300px;
+    border-left: 4px solid white;
+    border-bottom: 4px solid white;
+    border-top: 4px solid darkcyan;
+    border-right: 4px solid darkcyan;
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+.bottom-gap {
+
+    margin-bottom: 100px;
+
+}
